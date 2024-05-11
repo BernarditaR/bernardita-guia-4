@@ -5,14 +5,18 @@ read rango
 
 salariobasico=1000000
 
-rangouno=$(($salariobasico * 83) / 100)
+numero1=0.83
+numero2=1.2
+numero3=5
+
+rangouno=$($salariobasico * numero1)
 #echo "salario del rango uno es $rangouno"
 
-rangodos=$(($salariobasico * 120) / 100)
+rangodos=$($salariobasico * numero2)
 #echo "salario del rango dos es $rangodos"
 
 
-rangotres=$(($salariobasico * 5))
+rangotres=$($salariobasico * numero3)
 #echo "salario del rango tres es $rangotres"
 
 
