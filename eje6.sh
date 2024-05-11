@@ -3,20 +3,20 @@
 echo "Ingrese su rango salarial (uno, dos, tres)"
 read rango
 
-salariobasico=1000000
+salariobasico=1000
 
 numero1=0.83
 numero2=1.2
 numero3=5
 
-rangouno=$($salariobasico * $numero1)
+rangouno=$($salariobasico * $numero1 |bc)
 #echo "salario del rango uno es $rangouno"
 
-rangodos=$($salariobasico * $numero2)
+rangodos=$($salariobasico * $numero2 |bc) 
 #echo "salario del rango dos es $rangodos"
 
 
-rangotres=$($salariobasico * $numero3)
+rangotres=$($salariobasico * $numero3 |bc)
 #echo "salario del rango tres es $rangotres"
 
 
