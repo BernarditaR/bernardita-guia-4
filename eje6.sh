@@ -11,15 +11,15 @@ num3=5
 
 runo=$(($salariobasico * $num1))
 rangouno=$(($runo / 100))
-echo "salario del rango uno es $rangouno"
+#echo "salario del rango uno es $rangouno"
 
 rdos=$(($salariobasico * $num2))
 rangodos=$(($rdos / 100))
-echo "salario del rango dos es $rangodos"
+#echo "salario del rango dos es $rangodos"
 
 
 rangotres=$(($salariobasico * $num3))
-echo "salario del rango tres es $rangotres"
+#echo "salario del rango tres es $rangotres"
 
 
 # Utilizar la estructura case para determinar la acción basada en el rango ingresado
