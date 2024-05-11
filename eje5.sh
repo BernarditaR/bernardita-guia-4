@@ -1,9 +1,8 @@
 #!/bin/bash
 
 
-limitesuperior=10
-limiteinferior=1
-
+limitesuperior=9
+limiteinferior=0
 numeroaleatorio=$(((RANDOM % ($limitesuperior - $limiteinferior))+1))
 
 
