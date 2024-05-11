@@ -3,21 +3,23 @@
 echo "Ingrese su rango salarial (uno, dos, tres)"
 read rango
 
-salariobasico=1000
+salariobasico=1000000
 
-numero1=0.83
-numero2=1.2
-numero3=5
+num1=83
+num2=120
+num3=5
 
-rangouno=$($salariobasico * $numero1 | bc)
-#echo "salario del rango uno es $rangouno"
+runo=$(($salariobasico * $num1))
+rangouno=$(($runo / 100))
+echo "salario del rango uno es $rangouno"
 
-rangodos=$($salariobasico * $numero2 | bc) 
-#echo "salario del rango dos es $rangodos"
+rdos=$(($salariobasico * $num2))
+rangodos=$(($rdos / 100))
+echo "salario del rango dos es $rangodos"
 
 
-rangotres=$($salariobasico * $numero3 | bc)
-#echo "salario del rango tres es $rangotres"
+rangotres=$(($salariobasico * $num3))
+echo "salario del rango tres es $rangotres"
 
 
 # Utilizar la estructura case para determinar la acción basada en el rango ingresado
