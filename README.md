@@ -1,0 +1,2 @@
+Tuve varios problemas con los dispositivos. Un problema que apareció trabajanco con Windows + visual studio code + Git bash es que no permitía otorgar permisos de ejecución de los archivos.sh. La única forma de probar los códigos era subir el archivo 
+a Git Hub, descargarlo - se descargaban con los permisos- y ejecutarlos (./eje1.sh por ej) en la consola de git bash sin estar vinculada al Visual Studio Code. Por ese motivo hay muchos commiits dentro del repositorio.
