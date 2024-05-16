@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 
-fuente=open("./datos_phyton/datos","r")
+fuente=open("./datos_phyton/datos.txt","r")
 
 x=[]
 y=[]
